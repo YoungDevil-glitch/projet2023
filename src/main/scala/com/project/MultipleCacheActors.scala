@@ -39,6 +39,7 @@ class ManagerActor(journal : ActorRef , size : Int, delay : Int, load : Int, ini
             var child = context.actorOf(Props(new LimitedCacheActorLoad(journal , size)), s"cache$i")
             context.watch(child)
             caches += (i -> child) 
+            child ! Child(i)
             busy += (i -> 0) 
         }
     }
@@ -46,7 +47,9 @@ class ManagerActor(journal : ActorRef , size : Int, delay : Int, load : Int, ini
         valid =false
         var temp = scala.collection.mutable.Map[Int,ActorRef]() 
         for((key,value)<- caches ){
-            temp += (key%caches.size+1 -> value)
+            var newkey = key%caches.size+1
+            temp += ( newkey-> value)
+            value ! Child(newkey)
         }
         caches = temp.clone()
         var temp1 = scala.collection.mutable.Map[Int,Int]() 
@@ -75,7 +78,7 @@ class ManagerActor(journal : ActorRef , size : Int, delay : Int, load : Int, ini
         }
         }
 
-        valid =true
+        update_Keys()
     }
     
     override def receive: Receive = {
@@ -163,7 +166,7 @@ class LimitedCacheActorLoad(journal: ActorRef , size: Int) extends LimitedCacheA
     }   
 }
 
-object LimitedCacheJournalLoadbalancer_Auto extends App{
+object LimitedCacheJournalLoadBalancerAuto extends App{
     import Messages._
     
     var runs = 20
@@ -191,5 +194,5 @@ object LimitedCacheJournalLoadbalancer_Auto extends App{
         val durationSeconds = (endTimeMillis - startTimeMillis) 
         runtime = runtime + (durationSeconds -runtime)/(run+1)
     }
-    println(s"rruntime $runtime   ms")
+    println(s"runtime $runtime   ms")
 }

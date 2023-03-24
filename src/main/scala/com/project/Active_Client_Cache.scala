@@ -22,9 +22,6 @@ import com.project.Client
 class ClientAuto(cache : ActorRef, request : Int , stored : Int , message: Int) extends Client(cache){
     import Messages._
     var count:Int = 0
-    override def preStart():Unit = {
-    println("Welcome, to connect to the store type connect , to send command type command, to stop connection type stop ")
-  }
     def run_experiment():Unit = {
         var prevkey = 0
         for(w <- 1 to stored){
@@ -144,7 +141,7 @@ class ClientAuto(cache : ActorRef, request : Int , stored : Int , message: Int) 
         case Stop() =>{
         context.stop(self)
      }
-        case "Start" =>{
+        case "Start" =>{    
             run_experiment()
         }
         case _ =>{
@@ -157,7 +154,7 @@ class ClientAuto(cache : ActorRef, request : Int , stored : Int , message: Int) 
 
 
 
-object LimitedCacheJournal_Auto extends App{
+object LimitedCacheJournalAuto extends App{
     import Messages._
     
     var runs = 20
@@ -167,20 +164,20 @@ object LimitedCacheJournal_Auto extends App{
     var runtime: Float = 0 
     val message:Int = 2000 
     for(run <- 0 to runs){
-
         val startTimeMillis = System.currentTimeMillis()
         val as = ActorSystem("Store")
         val journal = as.actorOf(Props(new JournalActor("Data.txt")), "journal")    
         val cache = as.actorOf(Props(new LimitedCacheActor(journal , size)), "cache")
         val client = as.actorOf(Props(new ClientAuto(cache,request, stored, message)))
         client ! "Start"
+        val endTimeMillis = System.currentTimeMillis()
+        val durationSeconds = (endTimeMillis - startTimeMillis) 
         var file  = new File("Data.txt")
         val bw =  new BufferedWriter(new FileWriter(file, false))
         bw.write("")
         bw.close()
-        val endTimeMillis = System.currentTimeMillis()
-        val durationSeconds = (endTimeMillis - startTimeMillis) 
         runtime = runtime + (durationSeconds -runtime)/(run+1)
+
     }
-    println(s"rruntime $runtime   ms")
+    println(s"runtime $runtime   ms")
 }
