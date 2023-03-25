@@ -20,31 +20,33 @@ import com.project.Messages
 import com.project.Client
 import com.project.ClientAuto
 import com.project.ManagerActor
+import akka.cluster.ClusterEvent._
 import akka.cluster.Cluster
 import scala.concurrent.{ExecutionContext}
 import com.typesafe.config.ConfigFactory
 
 
 object DistributedJournalStoreSystem extends App{
-    val as = ActorSystem("Journal")
+    import Messages._
+    val as = ActorSystem("ClusterSystem")
     val cluster = Cluster(as)
     val journal = as.actorOf(Props(new JournalActor("Data.txt")), "journal") 
-    println(journal.path)   
 }
 
 object DistributedMultiCacheStoreSystem extends App{
-    val as = ActorSystem("Cache", ConfigFactory.load())
+    import Messages._
+    val as = ActorSystem("ClusterSystem", ConfigFactory.load())
     val cluster = Cluster(as)
     implicit lazy val  ec = ExecutionContext.fromExecutor(as.dispatcher)
     val size: Int = 5
     val init: Int = 5
     val load : Int = 20
     val delay : Int = 1000
-    val chatServerAddress = "akka://Journal@127.0.0.1:2552/user/journal"
+    val chatServerAddress = "akka://ClusterSystem@127.0.0.1:25251/user/journal"
     as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
     case Success(journal : ActorRef )=> {
       val cache = as.actorOf(Props(new ManagerActor(journal  , size , delay , load , init)), "cache")
-      println(cache.path)
+      cache ! Start()
     }
     case Failure(exception) => { 
         println("Not found")
@@ -53,7 +55,8 @@ object DistributedMultiCacheStoreSystem extends App{
 }
 
 object DistributedCacheStoreSystem extends App{
-    val as = ActorSystem("Cache")
+    import Messages._
+    val as = ActorSystem("ClusterSystem")
     val cluster = Cluster(as)
     implicit lazy val  ec = ExecutionContext.fromExecutor(as.dispatcher)
 
@@ -61,10 +64,12 @@ object DistributedCacheStoreSystem extends App{
     val init: Int = 5
     val load : Int = 20
     val delay : Int = 1000
-    val chatServerAddress = "akka://Journal@127.0.0.1:2552/user/journal"
+    val chatServerAddress = "akka://ClusterSystem@127.0.0.1:25251/user/journal"
     as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
     case Success(journal : ActorRef )=> {
       val cache = as.actorOf(Props(new LimitedCacheActor(journal  , size)), "cache")
+        cache ! Start()
+
     }
     case Failure(exception) => { 
         println("Not found")
@@ -73,14 +78,15 @@ object DistributedCacheStoreSystem extends App{
 }
 
 object DistributedClientStoreSystem extends App{
-    val as = ActorSystem("Client")
-
+    import Messages._
+    val as = ActorSystem("ClusterSystem")
+    val cluster = Cluster(as)
     implicit lazy val  ec = ExecutionContext.fromExecutor(as.dispatcher)
     val client = as.actorOf(Props(new JournalActor("sample.txt")), "text")
-    val chatServerAddress = "akka://Cache@127.0.0.1:2553/user/cache"
+    val chatServerAddress = "akka://ClusterSystem@127.0.0.1:25254/user/cache"
     as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
     case Success(journal : ActorRef )=> {
-        val client= as.actorOf(Props(new Client(journal)), "client")
+        as.actorOf(Props(new Client(journal)), "client")
     }
     case Failure(exception) => { 
         println("Not found")
@@ -89,12 +95,13 @@ object DistributedClientStoreSystem extends App{
 }
 }
 object DistributedClientJournalStoreSystem extends App{
+    import Messages._
     val as = ActorSystem("ClusterSystem",ConfigFactory.load())
 
     val cluster = Cluster(as)
     implicit lazy val  ec = ExecutionContext.fromExecutor(as.dispatcher)
 
-    val chatServerAddress = "akka://ClusterSystem@127.0.0.1:2552/user/journal"
+    val chatServerAddress = "akka://ClusterSystem@127.0.0.1:25251/user/journal"
     as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
     case Success(journal : ActorRef )=> {
         println("got it")
@@ -109,6 +116,7 @@ object DistributedClientJournalStoreSystem extends App{
 
 object DistributedClientAutoStoreSystem extends App{
     var runs = 20
+    import Messages._
     val size:Int = 5
     val request: Int = 1000
     val stored: Int = 500
@@ -119,7 +127,7 @@ object DistributedClientAutoStoreSystem extends App{
         val as = ActorSystem("ClusterSystem")
         val cluster = Cluster(as)
         implicit lazy val  ec = ExecutionContext.fromExecutor(as.dispatcher)
-        val chatServerAddress = "akka://Server@127.0.0.1:2553/user/cache"
+        val chatServerAddress = "akka://ClusterSystem@127.0.0.1:25254/user/cache"
         as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
         case Success(journal : ActorRef )=> {
            val client = as.actorOf(Props(new ClientAuto(journal,request, stored, message)) , "client2")
@@ -143,6 +151,7 @@ object DistributedClientAutoStoreSystem extends App{
 }
 
 object DistributedClientAutoJournalStoreSystem extends App{
+    import Messages._
     var runs = 20
     val size:Int = 5
     val request: Int = 1000
@@ -154,7 +163,7 @@ object DistributedClientAutoJournalStoreSystem extends App{
         val as = ActorSystem("ClusterSystem")
         val cluster = Cluster(as)
         implicit lazy val  ec = ExecutionContext.fromExecutor(as.dispatcher)
-        val chatServerAddress = "akka://ClusterSystem@127.0.0.1:2553/user/cache"
+        val chatServerAddress = "akka://ClusterSystem@127.0.0.1:25251/user/journal"
         as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
         case Success(journal : ActorRef )=> {
            val client = as.actorOf(Props(new ClientAuto(journal,request, stored, message)), "client3")

@@ -78,6 +78,9 @@ class Client(server: ActorRef) extends Actor{
     import Messages._
     override def preStart() = {
     println("Welcome, to connect to the store type connect , to send command type command, to stop connection type stop ")
+    println(self.path)
+    println(server.path)
+    server ! Start()
     self ! Check()
   }
     context.watch(server)
@@ -117,7 +120,7 @@ class Client(server: ActorRef) extends Actor{
             x match{
             case "connect" =>{
                 server ! Start()
-                
+
             }            
             case "command" =>{
                 println("command should be of the form store_key_value or lookup_key or delete_key or stop ")
@@ -136,6 +139,7 @@ class Client(server: ActorRef) extends Actor{
         
         case _ =>{
             sender ! "wrong message"
+            self ! Check()
         }
 
     }

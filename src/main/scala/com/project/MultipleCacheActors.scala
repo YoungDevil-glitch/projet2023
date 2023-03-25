@@ -142,6 +142,9 @@ class ManagerActor(journal : ActorRef , size : Int, delay : Int, load : Int, ini
             println("Received Start Message")
             
         }
+        case Response(_) =>{
+            println("received")
+        }
         case Stop() =>{
             sender ! Response("Cache Server shutting down ")
             context.stop(self)

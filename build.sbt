@@ -5,7 +5,7 @@ lazy val akkaVersion    = "2.7.0"
 // finished before returning.
 // If you want to keep the application running while executing other
 // sbt tasks, consider https://github.com/spray/sbt-revolver/
-fork := false
+fork := true
 
 lazy val root = (project in file(".")).
   settings(

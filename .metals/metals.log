@@ -11501,3 +11501,270 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not install
 	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
 	... 15 more
 
+Mar 25, 2023 5:11:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%226058add0199d3c2ca7135d1418cdab4637c2944d%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Mar 25, 2023 5:11:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 25, 2023 5:12:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Mar 25, 2023 5:25:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2210
+2023.03.25 05:35:58 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13825398279210598434/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.03.25 05:36:01 INFO  [info] welcome to sbt 1.8.2 (Ubuntu Java 11.0.18)[0m
+2023.03.25 05:36:03 INFO  [info] loading settings for project projet2023-build-build-build from metals.sbt ...[0m
+2023.03.25 05:36:04 INFO  [info] loading project definition from /home/junior/projet2023/project/project/project[0m
+2023.03.25 05:36:06 INFO  [info] loading settings for project projet2023-build-build from metals.sbt ...[0m
+2023.03.25 05:36:06 INFO  [info] loading project definition from /home/junior/projet2023/project/project[0m
+2023.03.25 05:36:10 INFO  [success] Generated .bloop/projet2023-build-build.json[0m
+2023.03.25 05:36:10 INFO  [success] Total time: 4 s, completed Mar 25, 2023, 5:36:10 AM[0m
+2023.03.25 05:36:15 INFO  [info] loading settings for project projet2023-build from metals.sbt,plugins.sbt ...[0m
+2023.03.25 05:36:15 INFO  [info] loading project definition from /home/junior/projet2023/project[0m
+2023.03.25 05:36:25 INFO  [success] Generated .bloop/projet2023-build.json[0m
+2023.03.25 05:36:25 INFO  [success] Total time: 9 s, completed Mar 25, 2023, 5:36:25 AM[0m
+2023.03.25 05:36:31 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.03.25 05:36:31 INFO  [info] set current project to Project2023 (in build file:/home/junior/projet2023/)[0m
+2023.03.25 05:36:33 INFO  [success] Generated .bloop/root-test.json[0m
+2023.03.25 05:36:33 INFO  [success] Generated .bloop/root.json[0m
+2023.03.25 05:36:33 INFO  [success] Total time: 1 s, completed Mar 25, 2023, 5:36:33 AM[0m
+2023.03.25 05:36:33 INFO  time: ran 'sbt bloopInstall' in 34s[0m
+2023.03.25 05:36:33 INFO  Disconnecting from Bloop session...[0m
+2023.03.25 05:36:33 INFO  Shut down connection with build server.[0m
+2023.03.25 05:36:33 INFO  Shut down connection with build server.[0m
+2023.03.25 05:36:33 INFO  Shut down connection with build server.[0m
+2023.03.25 05:36:33 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:36:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:36:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:36:33 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:36:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:36:33 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:36:33 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:36:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:36:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:36:34 INFO  time: Connected to build server in 0.37s[0m
+2023.03.25 05:36:34 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.25 05:36:39 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:36:39 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:36:39 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:36:39 INFO  time: indexed workspace in 5.28s[0m
+2023.03.25 05:36:42 INFO  time: code lens generation in 2.44s[0m
+2023.03.25 05:40:56 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13571840487204781325/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.03.25 05:40:58 INFO  [info] welcome to sbt 1.8.2 (Ubuntu Java 11.0.18)[0m
+2023.03.25 05:41:00 INFO  [info] loading settings for project projet2023-build-build-build from metals.sbt ...[0m
+2023.03.25 05:41:02 INFO  [info] loading project definition from /home/junior/projet2023/project/project/project[0m
+2023.03.25 05:41:03 INFO  [info] loading settings for project projet2023-build-build from metals.sbt ...[0m
+2023.03.25 05:41:03 INFO  [info] loading project definition from /home/junior/projet2023/project/project[0m
+2023.03.25 05:41:07 INFO  [success] Generated .bloop/projet2023-build-build.json[0m
+2023.03.25 05:41:07 INFO  [success] Total time: 4 s, completed Mar 25, 2023, 5:41:07 AM[0m
+2023.03.25 05:41:07 INFO  [info] loading settings for project projet2023-build from metals.sbt,plugins.sbt ...[0m
+2023.03.25 05:41:07 INFO  [info] loading project definition from /home/junior/projet2023/project[0m
+2023.03.25 05:41:09 INFO  [success] Generated .bloop/projet2023-build.json[0m
+2023.03.25 05:41:09 INFO  [success] Total time: 2 s, completed Mar 25, 2023, 5:41:10 AM[0m
+2023.03.25 05:41:15 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.03.25 05:41:15 INFO  [info] set current project to Project2023 (in build file:/home/junior/projet2023/)[0m
+2023.03.25 05:41:16 INFO  [success] Generated .bloop/root.json[0m
+2023.03.25 05:41:16 INFO  [success] Generated .bloop/root-test.json[0m
+2023.03.25 05:41:16 INFO  [success] Total time: 1 s, completed Mar 25, 2023, 5:41:16 AM[0m
+2023.03.25 05:41:17 INFO  time: ran 'sbt bloopInstall' in 20s[0m
+2023.03.25 05:41:17 INFO  Disconnecting from Bloop session...[0m
+2023.03.25 05:41:17 INFO  Shut down connection with build server.[0m
+2023.03.25 05:41:17 INFO  Shut down connection with build server.[0m
+2023.03.25 05:41:17 INFO  Shut down connection with build server.[0m
+2023.03.25 05:41:17 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:41:17 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:41:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:41:17 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:41:17 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:41:17 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:41:17 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:41:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:41:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:41:17 INFO  time: Connected to build server in 0.16s[0m
+2023.03.25 05:41:17 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.25 05:41:21 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:41:21 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:41:21 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:41:21 INFO  time: indexed workspace in 3.93s[0m
+2023.03.25 05:41:24 INFO  skipping build import with status 'Installed'[0m
+2023.03.25 05:50:33 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:50:33 INFO  time: compiled root in 0.47s[0m
+2023.03.25 05:55:55 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:55:57 INFO  time: compiled root in 1.84s[0m
+2023.03.25 05:57:39 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:57:40 INFO  time: compiled root in 1.19s[0m
+2023.03.25 05:58:00 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:58:01 INFO  time: compiled root in 1.02s[0m
+2023.03.25 06:02:55 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:02:56 INFO  time: compiled root in 1.25s[0m
+Mar 25, 2023 6:03:39 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 25, 2023 6:03:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Position.point on NoPosition
+java.lang.UnsupportedOperationException: Position.point on NoPosition
+	at scala.reflect.internal.util.Position.fail(Position.scala:24)
+	at scala.reflect.internal.util.UndefinedPosition.point(Position.scala:102)
+	at scala.reflect.internal.util.UndefinedPosition.point(Position.scala:97)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$5(PcCollector.scala:231)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$5$adapted(PcCollector.scala:231)
+	at scala.collection.immutable.Set$Set2.exists(Set.scala:204)
+	at scala.meta.internal.pc.PcCollector.isForComprehensionOwner$1(PcCollector.scala:231)
+	at scala.meta.internal.pc.PcCollector.soughtTreeFilter$1(PcCollector.scala:241)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9(PcCollector.scala:263)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9$adapted(PcCollector.scala:263)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:296)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:393)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:393)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:393)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:393)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:439)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:439)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:393)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:393)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:285)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:393)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:393)
+	at scala.meta.internal.pc.PcCollector.traverseSought(PcCollector.scala:442)
+	at scala.meta.internal.pc.PcCollector.resultWithSought(PcCollector.scala:263)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:211)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:27)
+
+2023.03.25 06:04:31 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:04:33 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 06:04:33 INFO  time: compiled root in 1.91s[0m
+2023.03.25 06:05:42 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:05:43 INFO  time: compiled root in 1s[0m
+2023.03.25 06:06:24 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:06:27 INFO  time: compiled root in 3.04s[0m
+2023.03.25 06:06:57 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:06:58 INFO  time: compiled root in 1.05s[0m
+2023.03.25 06:14:59 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:15:00 INFO  time: compiled root in 1.06s[0m
+2023.03.25 06:17:57 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:17:58 WARN  9 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 06:17:58 INFO  time: compiled root in 1.42s[0m
+2023.03.25 06:23:00 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:23:01 INFO  time: compiled root in 1.3s[0m
+2023.03.25 06:29:23 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:29:25 WARN  9 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 06:29:25 INFO  time: compiled root in 2.06s[0m
+2023.03.25 06:30:27 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:30:29 WARN  9 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 06:30:29 INFO  time: compiled root in 1.74s[0m
+2023.03.25 06:36:40 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:36:41 INFO  time: compiled root in 1.45s[0m
+2023.03.25 06:37:22 INFO  compiling root (1 scala source)[0m
+2023.03.25 06:37:23 INFO  time: compiled root in 1.09s[0m
