@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/server.conf,/home/junior/projet2023/target/scala-2.13/classes/server.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/application.conf,/home/junior/projet2023/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/In_memory_store,/home/junior/projet2023/target/scala-2.13/classes/In_memory_store)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/cache.conf,/home/junior/projet2023/target/scala-2.13/classes/cache.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/client.conf,/home/junior/projet2023/target/scala-2.13/classes/client.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/client-2.conf,/home/junior/projet2023/target/scala-2.13/classes/client-2.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/junior/projet2023/src/main/resources/logback.xml,/home/junior/projet2023/target/scala-2.13/classes/logback.xml)[0m

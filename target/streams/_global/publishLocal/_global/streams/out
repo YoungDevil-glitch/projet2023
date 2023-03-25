@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: com.project#project2023_2.13;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Sat Mar 25 07:11:29 WET 2023[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=integration pubdate=Sat Mar 25 07:11:29 WET 2023 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /home/junior/projet2023/target/scala-2.13/ivy-0.1.0-SNAPSHOT.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (47ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published project2023_2.13 to /home/junior/.ivy2/local/com.project/project2023_2.13/0.1.0-SNAPSHOT/poms/project2023_2.13.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published project2023_2.13 to /home/junior/.ivy2/local/com.project/project2023_2.13/0.1.0-SNAPSHOT/jars/project2023_2.13.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published project2023_2.13 to /home/junior/.ivy2/local/com.project/project2023_2.13/0.1.0-SNAPSHOT/srcs/project2023_2.13-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published project2023_2.13 to /home/junior/.ivy2/local/com.project/project2023_2.13/0.1.0-SNAPSHOT/docs/project2023_2.13-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /home/junior/.ivy2/local/com.project/project2023_2.13/0.1.0-SNAPSHOT/ivys/ivy.xml[0m

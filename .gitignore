@@ -1,5 +1,3 @@
 *.class
 .idea
-target/
 .bsp
-Cluster_App.scala
