@@ -58,7 +58,7 @@ The first test the system with a caching actor with limited storage and the seco
 + In MultipleCacheActors, I implemented a load balancer that maintain at least a certain number of caching actors and assign task to the actor whose load is the smalllest ( Number of request waiting), if this number is higher than a threshold, I initiate a delay and then tries for a maximum of ten time to get a caching Actor. If not possible I just spawn a new Caching Actor. Idle Actors are regurlarly deleted. 
 
 
-## Cluster part 
+## Clusters 
 This doesn't seem to work very well. 
 basic Syntax 
 
