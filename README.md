@@ -58,3 +58,28 @@ The first test the system with a caching actor with limited storage and the seco
 + In MultipleCacheActors, I implemented a load balancer that maintain at least a certain number of caching actors and assign task to the actor whose load is the smalllest ( Number of request waiting), if this number is higher than a threshold, I initiate a delay and then tries for a maximum of ten time to get a caching Actor. If not possible I just spawn a new Caching Actor. Idle Actors are regurlarly deleted. 
 
 
+## Cluster part 
+This doesn't seem to work very well. 
+basic Syntax 
+
+sbt "runMain -Dconfig.ressource=configfile_name  Classe Name  "
+
+config file 
+
+- server.conf for Journal Actor 
+    + com.example.DistributedJournalStoreSystem
+        
+        sbt "sbt "runMain -Dconfig.ressource=server.conf com.example.DistributedJournalStoreSystem
+    
+- cache.conf for Caching type Actor 
+
+    sbt "sbt "runMain -Dconfig.ressource=cache.conf com.example.DistributedMultiCacheStoreSystem
+    sbt "sbt "runMain -Dconfig.ressource=cache.conf com.example.DistributedCacheStoreSystem
+    
+- client.conf for Client
+
+        sbt "sbt "runMain -Dconfig.ressource=client.conf com.example.DistributedClientAutoStoreSystem
+        sbt "sbt "runMain -Dconfig.ressource=client.conf com.example.DistributedClientAutoJournalStoreSystem
+        sbt "sbt "runMain -Dconfig.ressource=client.conf com.example.DistributedClientJournalStoreSystem
+        sbt "sbt "runMain -Dconfig.ressource=client.conf com.example.DistributedClientStoreSystem
+
