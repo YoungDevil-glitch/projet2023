@@ -1,24 +1,60 @@
 # Project 2023
-
+## Emmanuel Junior Wafo Wembe
 Cloud Computing project
-## Project presentation 
+## Repos presentation 
+1. Day 1 part 1: SimpleStore.scala / SimpleStoreSplit.scala
+2. Day 1 part 2 : SimpleStoreActor.scala
+3. Day 2 part 1 : SimpleStorePersistent.scala
+4. Day 2 part 2: SimpleStorePersistentCache.scala
+2. Day 3 part 1 : LimitedCache.scala / Latency_Slow.scala 
+3. Day 3 part 3 : Active_Client_Cache.scala / Active_client_journal.scala / MultipleCacheActors.scala
+4. Day 4 part 1 : Cluster_App.scala
 
-## Interacting with the sample
+## How to Run 
 
-After starting the sample with `sbt run` the following requests can be made:
+SimpleStore:
 
-List all users:
+    sbt "runMain com.example.SimpleStore"
 
-    curl http://localhost:8080/users
+SimpleStoreSplit
 
-Create a user:
+    sbt "runMain com.example.SimpleStoreSplit"
+    
+SimpleStoreActor
 
-    curl -XPOST http://localhost:8080/users -d '{"name": "Liselott", "age": 32, "countryOfResidence": "Norway"}' -H "Content-Type:application/json"
+    sbt "runMain com.example.SimpleStoreActors"
+    
+SimpleStorePersitent
 
-Get the details of one user:
+    sbt "runMain com.example.StoreActorsPers"
+    
+SimpleStorePersistentCache:
 
-    curl http://localhost:8080/users/Liselott
+    sbt "runMain com.example.CacheJournal"
 
-Delete a user:
+LimitedCache 
 
-    curl -XDELETE http://localhost:8080/users/Liselott
+    sbt "runMain com.example.LimitedCacheJournal"
+
+Latency_Slow (Adding latency)
+    
+    sbt "runMain com.example.LimitedCacheJournalLat"
+    
+Test System 
+ 
+     sbt "runMain com.example.LimitedCacheJournalAuto"
+    
+     sbt "runMain com.example.Journal_Auto"
+     
+The first test the system with a caching actor with limited storage and the second the client against a simple journal.
+
+     sbt "runMain com.example.LimitedCacheJournalLoadBalancerAuto"
+     
+
+## Interesting Design Choices 
+ 
++ The code run asynchrously.  Every request message is accompagned by a reference to the original sender.
++ For the limited cache i used a frequency based strategy for deletion
++ In MultipleCacheActors, I implemented a load balancer that maintain at least a certain number of caching actors and assign task to the actor whose load is the smalllest ( Number of request waiting), if this number is higher than a threshold, I initiate a delay and then tries for a maximum of ten time to get a caching Actor. If not possible I just spawn a new Caching Actor. Idle Actors are regurlarly deleted. 
+
+
