@@ -5,7 +5,7 @@ lazy val akkaVersion    = "2.7.0"
 // finished before returning.
 // If you want to keep the application running while executing other
 // sbt tasks, consider https://github.com/spray/sbt-revolver/
-fork := true
+fork := false
 
 lazy val root = (project in file(".")).
   settings(
@@ -24,7 +24,9 @@ lazy val root = (project in file(".")).
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
       "org.scalatest"     %% "scalatest"                % "3.2.9"         % Test,
-      "com.typesafe.akka" %% "akka-cluster-typed" % AkkaVersion
+      "com.typesafe.akka" %% "akka-cluster-typed" % akkaVersion,
+      "com.typesafe.akka" %% "akka-multi-node-testkit"    % akkaVersion % Test,
+      "com.typesafe.akka" %% "akka-remote" % akkaVersion
     )
   )
 run / connectInput:=true

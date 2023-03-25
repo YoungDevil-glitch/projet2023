@@ -116,8 +116,8 @@ class Client(server: ActorRef) extends Actor{
             var x = readLine() 
             x match{
             case "connect" =>{
-                
                 server ! Start()
+                
             }            
             case "command" =>{
                 println("command should be of the form store_key_value or lookup_key or delete_key or stop ")

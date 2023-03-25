@@ -139,6 +139,7 @@ class ManagerActor(journal : ActorRef , size : Int, delay : Int, load : Int, ini
         }
         case Start() =>{
             sender ! Response("Welcome in Junior data store, We accept three operation store, lookup , delete, stop ")
+            println("Received Start Message")
             
         }
         case Stop() =>{
@@ -186,13 +187,13 @@ object LimitedCacheJournalLoadBalancerAuto extends App{
         val cache = as.actorOf(Props(new ManagerActor(journal  , size , delay , load , init)), "cache")
         val client = as.actorOf(Props(new ClientAuto(cache,request, stored, message)))
         client ! "Start"
+        val endTimeMillis = System.currentTimeMillis()
+        val durationSeconds = (endTimeMillis - startTimeMillis) 
+        runtime = runtime + (durationSeconds -runtime)/(run+1)
         var file  = new File("Data.txt")
         val bw =  new BufferedWriter(new FileWriter(file, false))
         bw.write("")
         bw.close()
-        val endTimeMillis = System.currentTimeMillis()
-        val durationSeconds = (endTimeMillis - startTimeMillis) 
-        runtime = runtime + (durationSeconds -runtime)/(run+1)
     }
     println(s"runtime $runtime   ms")
 }

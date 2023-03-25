@@ -9210,3 +9210,2294 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.24 20:23:54 INFO  time: Connected to build server in 0.59s[0m
 2023.03.24 20:23:54 INFO  Connected to Build server: Bloop v1.5.6[0m
 2023.03.24 20:23:54 INFO  time: Imported build in 0.12s[0m
+2023.03.24 20:23:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 20:23:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 20:23:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 20:23:58 INFO  time: indexed workspace in 5.06s[0m
+2023.03.24 20:24:05 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11369332821321801055/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.03.24 20:24:09 INFO  [info] welcome to sbt 1.8.2 (Ubuntu Java 11.0.18)[0m
+2023.03.24 20:24:10 INFO  [info] loading settings for project projet2023-build-build-build from metals.sbt ...[0m
+2023.03.24 20:24:12 INFO  [info] loading project definition from /home/junior/projet2023/project/project/project[0m
+2023.03.24 20:24:13 INFO  [info] loading settings for project projet2023-build-build from metals.sbt ...[0m
+2023.03.24 20:24:13 INFO  [info] loading project definition from /home/junior/projet2023/project/project[0m
+2023.03.24 20:24:19 INFO  [success] Generated .bloop/projet2023-build-build.json[0m
+2023.03.24 20:24:19 INFO  [warn] Removed stale /home/junior/projet2023/project/project/.bloop/project2023-build-build.json[0m
+2023.03.24 20:24:19 INFO  [success] Total time: 5 s, completed Mar 24, 2023, 8:24:19 PM[0m
+2023.03.24 20:24:19 INFO  [info] loading settings for project projet2023-build from metals.sbt,plugins.sbt ...[0m
+2023.03.24 20:24:19 INFO  [info] loading project definition from /home/junior/projet2023/project[0m
+2023.03.24 20:24:21 INFO  [success] Generated .bloop/projet2023-build.json[0m
+2023.03.24 20:24:21 INFO  [warn] Removed stale /home/junior/projet2023/project/.bloop/project2023-build.json[0m
+2023.03.24 20:24:21 INFO  [success] Total time: 2 s, completed Mar 24, 2023, 8:24:22 PM[0m
+2023.03.24 20:24:24 ERROR /home/junior/projet2023/build.sbt:27: error: not found: value AkkaVersion[0m
+2023.03.24 20:24:24 ERROR       "com.typesafe.akka" %% "akka-cluster-typed" % AkkaVersion[0m
+2023.03.24 20:24:24 ERROR                                                     ^[0m
+2023.03.24 20:24:24 ERROR sbt.compiler.EvalException: Type error in expression[0m
+2023.03.24 20:24:24 INFO  [error] sbt.compiler.EvalException: Type error in expression[0m
+2023.03.24 20:24:24 INFO  [error] Use 'last' for the full log.[0m
+2023.03.24 20:24:24 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
+2023.03.24 20:24:25 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+2023.03.24 20:24:25 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11369332821321801055/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2023.03.24 20:24:25 INFO  Disconnecting from Bloop session...[0m
+2023.03.24 20:24:25 INFO  Shut down connection with build server.[0m
+2023.03.24 20:24:25 INFO  Shut down connection with build server.[0m
+2023.03.24 20:24:25 INFO  Shut down connection with build server.[0m
+2023.03.24 20:24:25 INFO  Attempting to connect to the build server...[0m
+2023.03.24 20:24:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.24 20:24:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.24 20:24:25 INFO  Attempting to connect to the build server...[0m
+2023.03.24 20:24:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.24 20:24:25 INFO  Attempting to connect to the build server...[0m
+2023.03.24 20:24:25 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.24 20:24:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.24 20:24:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.24 20:24:25 INFO  time: Connected to build server in 0.18s[0m
+2023.03.24 20:24:25 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.24 20:24:27 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 20:24:27 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 20:24:27 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 20:24:27 INFO  time: indexed workspace in 2.35s[0m
+2023.03.24 20:26:47 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Active_Client_Cache.scala[0m
+2023.03.24 20:26:49 INFO  time: code lens generation in 1.11s[0m
+2023.03.24 21:05:56 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 9:12:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 161
+2023.03.24 21:12:32 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:13:05 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Active_client_journal.scala[0m
+2023.03.24 21:13:08 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Latency_Slow.scala[0m
+2023.03.24 21:13:16 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/SimpleStore.scala[0m
+2023.03.24 21:14:34 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 9:15:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 857
+Mar 24, 2023 9:16:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1056
+2023.03.24 21:28:01 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:01 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:02 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:02 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:03 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:08 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:09 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:08 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/MultipleCacheActors.scala[0m
+2023.03.24 21:28:12 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/LimitedCache.scala[0m
+2023.03.24 21:35:41 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 21:36:33 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 21:36:33 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 21:38:05 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/LimitedCache.scala[0m
+2023.03.24 21:38:54 WARN  Using indexes to guess the definition of journal[0m
+2023.03.24 21:38:55 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 21:39:49 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 21:39:49 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:12:52 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:12:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:96: error: } expected but end of file found
+
+^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:96: error: } expected but end of file found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inBracesAfterOpen(ScalametaParser.scala:270)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4073)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4095)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4125)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3847)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3839)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3715)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:13:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:96: error: } expected but end of file found
+
+^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:96: error: } expected but end of file found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inBracesAfterOpen(ScalametaParser.scala:270)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4073)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4095)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4125)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3847)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3839)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3715)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:13:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:96: error: } expected but end of file found
+
+^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:96: error: } expected but end of file found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:400)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:404)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inBracesAfterOpen(ScalametaParser.scala:270)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4073)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4095)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4125)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3847)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3839)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3715)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:13:12 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:28:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (journal  , size , delay , load , init)
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (journal  , size , delay , load , init)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (journal  , size , delay , load , init)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:789)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:3954)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:3937)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4046)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$2(ScalametaParser.scala:2137)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2135)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExpr(ScalametaParser.scala:2348)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsInParens$1(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:613)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:619)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:623)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsInParens(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$2(ScalametaParser.scala:2361)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExpr(ScalametaParser.scala:2348)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsInParens$1(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:613)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:619)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:606)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparated(ScalametaParser.scala:623)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsInParens(ScalametaParser.scala:2375)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$2(ScalametaParser.scala:2361)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:255)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:246)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2362)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3427)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3413)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3372)
+	at scala.meta.internal.parsers.ScalametaParser.localDef(ScalametaParser.scala:4360)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4385)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2394)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2396)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2393)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2390)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2132)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$3(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.parseStatSeq$1(ScalametaParser.scala:2409)
+	at scala.meta.internal.parsers.ScalametaParser.caseBody$1(ScalametaParser.scala:2416)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$caseClause$1(ScalametaParser.scala:2419)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.caseClause(ScalametaParser.scala:2405)
+	at scala.meta.internal.parsers.ScalametaParser.iter$3(ScalametaParser.scala:2450)
+	at scala.meta.internal.parsers.ScalametaParser.caseClausesIfAny(ScalametaParser.scala:2456)
+	at scala.meta.internal.parsers.ScalametaParser.caseClauses(ScalametaParser.scala:2433)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockExpr$3(ScalametaParser.scala:2388)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2387)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$getArgClause$1(ScalametaParser.scala:2353)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$getArgClause(ScalametaParser.scala:2351)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExprRest(ScalametaParser.scala:2233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$3(ScalametaParser.scala:2153)
+	at scala.util.Success.map(Try.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2153)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4325)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4311)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4303)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:262)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:258)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4159)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4073)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4095)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4125)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3847)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3839)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3715)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:132)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:102)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:843)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.03.24 22:28:24 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:30:54 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:32:09 INFO  time: code lens generation in 4.56s[0m
+2023.03.24 22:33:49 WARN  Using indexes to guess the definition of delay[0m
+2023.03.24 22:33:49 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:33:49 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:34:59 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:34:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:09 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:35:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:10 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:35:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:10 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:35:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:10 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:35:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:10 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:35:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:21 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 24, 2023 10:35:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+Mar 24, 2023 10:35:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+file%3A%2F%2F%2Fhome%2Fjunior%2Fprojet2023%2Fsrc%2Fmain%2Fscala%2Fcom%2Fproject%2FCluster_App.scala:32: error: illegal start of definition val
+    val as = ActorSystem("Cache")
+    ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4265)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.03.24 22:35:39 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:35:40 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:35:41 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:40:44 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:40:44 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:53:14 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:54:49 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:55:03 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:55:04 WARN  no build target for: /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.24 22:57:39 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7837269454090915250/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.03.24 22:57:41 INFO  [info] welcome to sbt 1.8.2 (Ubuntu Java 11.0.18)[0m
+2023.03.24 22:57:42 INFO  [info] loading settings for project projet2023-build-build-build from metals.sbt ...[0m
+2023.03.24 22:57:44 INFO  [info] loading project definition from /home/junior/projet2023/project/project/project[0m
+2023.03.24 22:57:45 INFO  [info] loading settings for project projet2023-build-build from metals.sbt ...[0m
+2023.03.24 22:57:45 INFO  [info] loading project definition from /home/junior/projet2023/project/project[0m
+2023.03.24 22:57:49 INFO  [success] Generated .bloop/projet2023-build-build.json[0m
+2023.03.24 22:57:49 INFO  [success] Total time: 4 s, completed Mar 24, 2023, 10:57:50 PM[0m
+2023.03.24 22:57:49 INFO  [info] loading settings for project projet2023-build from metals.sbt,plugins.sbt ...[0m
+2023.03.24 22:57:49 INFO  [info] loading project definition from /home/junior/projet2023/project[0m
+2023.03.24 22:57:52 INFO  [success] Generated .bloop/projet2023-build.json[0m
+2023.03.24 22:57:52 INFO  [success] Total time: 2 s, completed Mar 24, 2023, 10:57:52 PM[0m
+2023.03.24 22:57:57 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.03.24 22:57:57 INFO  [info] set current project to Project2023 (in build file:/home/junior/projet2023/)[0m
+2023.03.24 22:58:00 INFO  [success] Generated .bloop/root-test.json[0m
+2023.03.24 22:58:00 INFO  [success] Generated .bloop/root.json[0m
+2023.03.24 22:58:00 INFO  [success] Total time: 3 s, completed Mar 24, 2023, 10:58:00 PM[0m
+2023.03.24 22:58:00 INFO  time: ran 'sbt bloopInstall' in 21s[0m
+2023.03.24 22:58:00 INFO  Disconnecting from Bloop session...[0m
+2023.03.24 22:58:00 INFO  Shut down connection with build server.[0m
+2023.03.24 22:58:00 INFO  Shut down connection with build server.[0m
+2023.03.24 22:58:00 INFO  Shut down connection with build server.[0m
+2023.03.24 22:58:00 INFO  Attempting to connect to the build server...[0m
+2023.03.24 22:58:00 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.24 22:58:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.24 22:58:01 INFO  Attempting to connect to the build server...[0m
+2023.03.24 22:58:01 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.24 22:58:01 INFO  Attempting to connect to the build server...[0m
+2023.03.24 22:58:01 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.24 22:58:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.24 22:58:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.24 22:58:00 INFO  time: Connected to build server in 0.29s[0m
+2023.03.24 22:58:00 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.24 22:58:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 22:58:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 22:58:03 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.24 22:58:03 INFO  time: indexed workspace in 2.71s[0m
+2023.03.24 22:58:05 INFO  compiling root (11 scala sources)[0m
+2023.03.24 22:58:08 INFO  time: compiled root in 3.47s[0m
+2023.03.24 23:02:13 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:02:15 INFO  time: compiled root in 1.12s[0m
+2023.03.24 23:02:28 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:02:28 INFO  time: compiled root in 0.84s[0m
+2023.03.24 23:03:03 WARN  Using indexes to guess the definition of ExecutionContext[0m
+2023.03.24 23:03:06 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:03:06 INFO  time: compiled root in 0.85s[0m
+2023.03.24 23:03:28 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:03:28 INFO  time: compiled root in 0.82s[0m
+2023.03.24 23:03:39 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:03:39 INFO  time: compiled root in 0.68s[0m
+2023.03.24 23:04:14 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:04:14 INFO  time: compiled root in 0.66s[0m
+2023.03.24 23:04:25 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:04:25 INFO  time: compiled root in 0.55s[0m
+2023.03.24 23:04:39 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:04:39 INFO  time: compiled root in 0.57s[0m
+2023.03.24 23:04:50 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:04:50 INFO  time: compiled root in 0.59s[0m
+2023.03.24 23:04:57 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:04:57 INFO  time: compiled root in 0.43s[0m
+2023.03.24 23:05:27 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:05:27 INFO  time: compiled root in 0.5s[0m
+Mar 24, 2023 11:05:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5487
+2023.03.24 23:05:58 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:05:58 INFO  time: compiled root in 0.11s[0m
+2023.03.24 23:06:12 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:06:12 INFO  time: compiled root in 83ms[0m
+2023.03.24 23:06:12 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:06:12 INFO  time: compiled root in 41ms[0m
+2023.03.24 23:06:12 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:06:12 INFO  time: compiled root in 46ms[0m
+2023.03.24 23:23:05 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:23:05 INFO  time: compiled root in 0.1s[0m
+2023.03.24 23:23:05 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:23:05 INFO  time: compiled root in 40ms[0m
+2023.03.24 23:23:05 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:23:05 INFO  time: compiled root in 38ms[0m
+2023.03.24 23:23:07 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:23:07 INFO  time: compiled root in 88ms[0m
+2023.03.24 23:23:07 INFO  compiling root (11 scala sources)[0m
+2023.03.24 23:23:07 INFO  time: compiled root in 42ms[0m
+2023.03.25 00:16:35 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:16:35 INFO  time: compiled root in 0.54s[0m
+2023.03.25 00:16:42 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:16:42 INFO  time: compiled root in 77ms[0m
+2023.03.25 00:17:22 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:17:22 INFO  time: compiled root in 67ms[0m
+2023.03.25 00:17:22 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:17:22 INFO  time: compiled root in 31ms[0m
+2023.03.25 00:17:24 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:17:24 INFO  time: compiled root in 31ms[0m
+2023.03.25 00:17:24 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:17:24 INFO  time: compiled root in 38ms[0m
+2023.03.25 00:17:37 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:17:37 INFO  time: compiled root in 0.46s[0m
+2023.03.25 00:18:00 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:18:00 INFO  time: compiled root in 0.33s[0m
+2023.03.25 00:18:00 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:18:00 INFO  time: compiled root in 0.45s[0m
+2023.03.25 00:18:00 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:18:01 INFO  time: compiled root in 0.31s[0m
+2023.03.25 00:18:28 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:18:28 INFO  time: compiled root in 0.38s[0m
+2023.03.25 00:18:42 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:18:42 INFO  time: compiled root in 0.46s[0m
+2023.03.25 00:19:44 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:19:44 INFO  time: compiled root in 0.34s[0m
+2023.03.25 00:19:59 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:19:59 INFO  time: compiled root in 0.39s[0m
+2023.03.25 00:20:17 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:20:17 INFO  time: compiled root in 0.37s[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:42:5: stale bloop error: overloaded method resolveOne with alternatives:
+  (timeout: java.time.Duration)java.util.concurrent.CompletionStage[akka.actor.ActorRef] <and>
+  (timeout: scala.concurrent.duration.FiniteDuration)scala.concurrent.Future[akka.actor.ActorRef]
+ cannot be applied to (akka.util.Timeout)
+    as.actorSelection(chatServerAddress).resolveOne(timeout).onComplete{
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:59:5: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>     case Success(journal : ActorRef )=> {
+>       val cache = as.actorOf(Props(new LimitedCacheActor(journal  , size)), "cache")
+>     }
+> }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:71:5: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>     case Success(journal : ActorRef )=> {
+>       val cache = as.actorOf(Props(new Client(journal)), "cache")
+>     }
+> }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:83:5: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>     case Success(journal : ActorRef )=> {
+>       val cache = as.actorOf(Props(new Client(journal)), "cache")
+>     }
+> }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:103:9: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>         case Success(journal : ActorRef )=> {
+>            val client = as.actorOf(Props(new ClientAuto(journal,request, stored, message)) , "client2")
+>            client ! "Start"
+>         }
+>     }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:135:9: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>         case Success(journal : ActorRef )=> {
+>            val client = as.actorOf(Props(new ClientAuto(journal,request, stored, message)), "client3")
+>            client ! "Start"
+>         }
+>     }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:42:5: stale bloop error: overloaded method resolveOne with alternatives:
+  (timeout: java.time.Duration)java.util.concurrent.CompletionStage[akka.actor.ActorRef] <and>
+  (timeout: scala.concurrent.duration.FiniteDuration)scala.concurrent.Future[akka.actor.ActorRef]
+ cannot be applied to (akka.util.Timeout)
+    as.actorSelection(chatServerAddress).resolveOne(timeout).onComplete{
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:59:5: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>     case Success(journal : ActorRef )=> {
+>       val cache = as.actorOf(Props(new LimitedCacheActor(journal  , size)), "cache")
+>     }
+> }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:71:5: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>     case Success(journal : ActorRef )=> {
+>       val cache = as.actorOf(Props(new Client(journal)), "cache")
+>     }
+> }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:83:5: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>     case Success(journal : ActorRef )=> {
+>       val cache = as.actorOf(Props(new Client(journal)), "cache")
+>     }
+> }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:103:9: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>         case Success(journal : ActorRef )=> {
+>            val client = as.actorOf(Props(new ClientAuto(journal,request, stored, message)) , "client2")
+>            client ! "Start"
+>         }
+>     }[0m
+2023.03.25 00:20:34 INFO  file:///home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala:135:9: stale bloop error: Cannot find an implicit ExecutionContext. You might add
+an (implicit ec: ExecutionContext) parameter to your method.
+
+The ExecutionContext is used to configure how and on which
+thread pools asynchronous tasks (such as Futures) will run,
+so the specific ExecutionContext that is selected is important.
+
+If your application does not define an ExecutionContext elsewhere,
+consider using Scala's global ExecutionContext by defining
+the following:
+
+implicit val ec: scala.concurrent.ExecutionContext = scala.concurrent.ExecutionContext.global
+> as.actorSelection(chatServerAddress).resolveOne(3 seconds).onComplete{
+>         case Success(journal : ActorRef )=> {
+>            val client = as.actorOf(Props(new ClientAuto(journal,request, stored, message)), "client3")
+>            client ! "Start"
+>         }
+>     }[0m
+2023.03.25 00:20:40 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:20:40 INFO  time: compiled root in 0.34s[0m
+2023.03.25 00:20:47 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:20:47 INFO  time: compiled root in 0.33s[0m
+2023.03.25 00:20:47 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:20:47 INFO  time: compiled root in 0.33s[0m
+2023.03.25 00:20:47 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:20:48 INFO  time: compiled root in 0.34s[0m
+Mar 25, 2023 12:21:34 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 25, 2023 12:21:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit lazy class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit lazy class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:66)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1973)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2033)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1933)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5958)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6125)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5640)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5960)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:467)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1369)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1362)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1232)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:439)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+2023.03.25 00:21:35 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:21:35 INFO  time: compiled root in 0.48s[0m
+2023.03.25 00:21:48 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:21:48 INFO  time: compiled root in 0.44s[0m
+2023.03.25 00:22:02 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:22:02 INFO  time: compiled root in 0.31s[0m
+2023.03.25 00:22:25 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:22:25 INFO  time: compiled root in 0.26s[0m
+2023.03.25 00:22:26 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:22:26 INFO  time: compiled root in 0.25s[0m
+2023.03.25 00:22:34 INFO  compiling root (11 scala sources)[0m
+2023.03.25 00:22:38 WARN  1 deprecation (since 2.13.0)[0m
+2023.03.25 00:22:38 WARN  48 deprecations (since 2.13.3)[0m
+2023.03.25 00:22:38 WARN  49 deprecations in total; re-run with -deprecation for details[0m
+2023.03.25 00:22:38 INFO  time: compiled root in 4.34s[0m
+2023.03.25 00:25:29 INFO  compiling root (1 scala source)[0m
+2023.03.25 00:25:30 INFO  time: compiled root in 1.24s[0m
+2023.03.25 00:27:31 INFO  compiling root (1 scala source)[0m
+2023.03.25 00:27:32 INFO  time: compiled root in 1.13s[0m
+2023.03.25 00:36:20 INFO  compiling root (1 scala source)[0m
+2023.03.25 00:36:20 INFO  time: compiled root in 0.15s[0m
+2023.03.25 00:51:26 INFO  compiling root (1 scala source)[0m
+2023.03.25 00:51:26 WARN  10 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 00:51:26 INFO  time: compiled root in 0.97s[0m
+2023.03.25 00:51:33 INFO  compiling root (1 scala source)[0m
+2023.03.25 00:51:35 WARN  10 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 00:51:35 INFO  time: compiled root in 1.35s[0m
+2023.03.25 01:33:46 INFO  compiling root (1 scala source)[0m
+2023.03.25 01:33:50 INFO  time: compiled root in 3.33s[0m
+Mar 25, 2023 1:39:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7719
+2023.03.25 01:39:58 INFO  compiling root (1 scala source)[0m
+2023.03.25 01:40:00 INFO  time: compiled root in 2.07s[0m
+2023.03.25 01:56:05 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals14296663260308566410/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.03.25 01:56:07 INFO  [info] welcome to sbt 1.8.2 (Ubuntu Java 11.0.18)[0m
+2023.03.25 01:56:09 INFO  [info] loading settings for project projet2023-build-build-build from metals.sbt ...[0m
+2023.03.25 01:56:10 INFO  [info] loading project definition from /home/junior/projet2023/project/project/project[0m
+2023.03.25 01:56:12 INFO  [info] loading settings for project projet2023-build-build from metals.sbt ...[0m
+2023.03.25 01:56:12 INFO  [info] loading project definition from /home/junior/projet2023/project/project[0m
+2023.03.25 01:56:16 INFO  [success] Generated .bloop/projet2023-build-build.json[0m
+2023.03.25 01:56:16 INFO  [success] Total time: 4 s, completed Mar 25, 2023, 1:56:17 AM[0m
+2023.03.25 01:56:16 INFO  [info] loading settings for project projet2023-build from metals.sbt,plugins.sbt ...[0m
+2023.03.25 01:56:16 INFO  [info] loading project definition from /home/junior/projet2023/project[0m
+2023.03.25 01:56:18 INFO  [success] Generated .bloop/projet2023-build.json[0m
+2023.03.25 01:56:18 INFO  [success] Total time: 1 s, completed Mar 25, 2023, 1:56:18 AM[0m
+2023.03.25 01:56:23 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.03.25 01:56:23 INFO  [info] set current project to Project2023 (in build file:/home/junior/projet2023/)[0m
+2023.03.25 01:56:26 INFO  [success] Generated .bloop/root-test.json[0m
+2023.03.25 01:56:26 INFO  [success] Generated .bloop/root.json[0m
+2023.03.25 01:56:26 INFO  [success] Total time: 3 s, completed Mar 25, 2023, 1:56:26 AM[0m
+2023.03.25 01:56:27 INFO  time: ran 'sbt bloopInstall' in 21s[0m
+2023.03.25 01:56:27 INFO  Disconnecting from Bloop session...[0m
+2023.03.25 01:56:27 INFO  Shut down connection with build server.[0m
+2023.03.25 01:56:27 INFO  Shut down connection with build server.[0m
+2023.03.25 01:56:27 INFO  Shut down connection with build server.[0m
+2023.03.25 01:56:27 INFO  Attempting to connect to the build server...[0m
+2023.03.25 01:56:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 01:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 01:56:27 INFO  Attempting to connect to the build server...[0m
+2023.03.25 01:56:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 01:56:27 INFO  Attempting to connect to the build server...[0m
+2023.03.25 01:56:27 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 01:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 01:56:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 01:56:27 INFO  time: Connected to build server in 0.21s[0m
+2023.03.25 01:56:27 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.25 01:56:30 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 01:56:30 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 01:56:30 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 01:56:30 INFO  time: indexed workspace in 2.66s[0m
+2023.03.25 01:56:32 INFO  skipping build import with status 'Installed'[0m
+2023.03.25 02:20:07 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:20:10 INFO  time: compiled root in 2.56s[0m
+2023.03.25 02:26:45 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:26:47 INFO  time: compiled root in 1.31s[0m
+2023.03.25 02:26:56 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:26:57 INFO  time: compiled root in 1.2s[0m
+2023.03.25 02:27:05 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:27:06 INFO  time: compiled root in 1.15s[0m
+2023.03.25 02:27:16 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:27:17 INFO  time: compiled root in 1.03s[0m
+2023.03.25 02:50:12 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:50:12 INFO  time: compiled root in 0.33s[0m
+2023.03.25 02:50:12 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:50:12 INFO  time: compiled root in 0.21s[0m
+2023.03.25 02:50:32 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:50:33 INFO  time: compiled root in 1.83s[0m
+2023.03.25 02:50:46 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:50:47 INFO  time: compiled root in 1.36s[0m
+2023.03.25 02:51:37 INFO  compiling root (1 scala source)[0m
+Mar 25, 2023 2:51:38 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 4980, count -1, length 5888
+2023.03.25 02:51:40 INFO  time: compiled root in 2.82s[0m
+2023.03.25 02:54:02 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:54:02 INFO  time: compiled root in 0.3s[0m
+2023.03.25 02:54:02 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:54:02 INFO  time: compiled root in 0.16s[0m
+2023.03.25 02:54:17 WARN  Using indexes to guess the definition of cache[0m
+2023.03.25 02:54:20 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:54:20 INFO  time: compiled root in 0.21s[0m
+2023.03.25 02:54:32 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:54:32 INFO  time: compiled root in 0.19s[0m
+2023.03.25 02:54:32 INFO  compiling root (1 scala source)[0m
+2023.03.25 02:54:32 INFO  time: compiled root in 0.13s[0m
+2023.03.25 03:31:30 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:31:34 INFO  time: compiled root in 3.75s[0m
+2023.03.25 03:32:10 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:32:12 INFO  time: compiled root in 2.05s[0m
+2023.03.25 03:35:49 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:35:50 INFO  time: compiled root in 1.51s[0m
+2023.03.25 03:41:03 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:41:07 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.11' (since 1h 44m 39.869s)[0m
+2023.03.25 03:41:07 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:41:07 INFO  time: compiled root in 0.31s[0m
+2023.03.25 03:51:15 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:51:15 INFO  time: compiled root in 0.24s[0m
+2023.03.25 03:51:15 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:51:15 INFO  time: compiled root in 0.18s[0m
+2023.03.25 03:51:16 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:51:28 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:51:28 INFO  time: compiled root in 0.19s[0m
+2023.03.25 03:51:28 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:51:28 INFO  time: compiled root in 0.17s[0m
+2023.03.25 03:51:29 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:51:56 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:51:59 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:00 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:01 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:52:01 INFO  time: compiled root in 0.22s[0m
+2023.03.25 03:52:01 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:18 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:21 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:24 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:52:24 INFO  time: compiled root in 0.22s[0m
+2023.03.25 03:52:24 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:31 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:31 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:52:31 INFO  time: compiled root in 0.22s[0m
+2023.03.25 03:52:32 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:52:34 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:52:34 INFO  time: compiled root in 0.17s[0m
+2023.03.25 03:52:34 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:52:34 INFO  time: compiled root in 0.13s[0m
+2023.03.25 03:52:35 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:23 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:41 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:41 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:44 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:44 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:44 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:45 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:50 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:51 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:51 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 25, 2023 3:54:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10170
+2023.03.25 03:54:53 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:53 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:54 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:55 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:56 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:57 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:57 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:57 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:59 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:54:59 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:01 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:03 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:03 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:04 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:05 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:06 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:07 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:55:07 INFO  time: compiled root in 0.24s[0m
+2023.03.25 03:55:08 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 25, 2023 3:55:12 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Mar 25, 2023 3:55:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: class scala.reflect.internal.Types$PolyType cannot be cast to class scala.reflect.internal.Types$OverloadedType (scala.reflect.internal.Types$PolyType and scala.reflect.internal.Types$OverloadedType are in unnamed module of loader 'app')
+java.lang.ClassCastException: class scala.reflect.internal.Types$PolyType cannot be cast to class scala.reflect.internal.Types$OverloadedType (scala.reflect.internal.Types$PolyType and scala.reflect.internal.Types$OverloadedType are in unnamed module of loader 'app')
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2014)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:154)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:282)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:281)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:281)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2023.03.25 03:55:12 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:14 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 25, 2023 3:55:14 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.03.25 03:55:14 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+Mar 25, 2023 3:55:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: class scala.reflect.internal.Types$PolyType cannot be cast to class scala.reflect.internal.Types$OverloadedType (scala.reflect.internal.Types$PolyType and scala.reflect.internal.Types$OverloadedType are in unnamed module of loader 'app')
+java.lang.ClassCastException: class scala.reflect.internal.Types$PolyType cannot be cast to class scala.reflect.internal.Types$OverloadedType (scala.reflect.internal.Types$PolyType and scala.reflect.internal.Types$OverloadedType are in unnamed module of loader 'app')
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:2014)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:154)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:282)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:281)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:362)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:362)
+	at scala.Option$WithFilter.map(Option.scala:319)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:281)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2023.03.25 03:55:16 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:19 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:20 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:20 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:21 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:30 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:30 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:31 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:31 WARN  Using indexes to guess the definition of Cluster[0m
+2023.03.25 03:55:32 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:55:32 INFO  time: compiled root in 0.35s[0m
+2023.03.25 03:55:33 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:56 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:57 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:55:59 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:55:59 INFO  time: compiled root in 0.27s[0m
+2023.03.25 03:55:59 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:06 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:06 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:07 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:56:07 INFO  time: compiled root in 0.23s[0m
+2023.03.25 03:56:07 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:42 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:45 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:46 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:47 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 03:56:48 INFO  compiling root (1 scala source)[0m
+2023.03.25 03:56:48 INFO  time: compiled root in 0.23s[0m
+2023.03.25 03:56:48 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:50 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:52 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:53 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:53 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:54 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:54 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:54 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:54 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:56 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:56 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:57 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:57 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:58 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:59 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:03:59 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:00 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:01 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:03 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:03 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:05 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:05 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:06 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:06 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:07 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:07 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:08 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:04:11 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:23:07 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:23:09 INFO  time: compiled root in 1.85s[0m
+2023.03.25 04:24:54 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:24:56 INFO  time: compiled root in 1.55s[0m
+2023.03.25 04:24:59 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:02 INFO  time: compiled root in 2.45s[0m
+2023.03.25 04:25:09 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:10 INFO  time: compiled root in 1.28s[0m
+2023.03.25 04:25:14 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:15 INFO  time: compiled root in 1.45s[0m
+2023.03.25 04:25:27 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:28 INFO  time: compiled root in 1.54s[0m
+2023.03.25 04:25:31 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:32 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:25:33 INFO  time: compiled root in 1.92s[0m
+2023.03.25 04:25:41 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:43 INFO  time: compiled root in 1.39s[0m
+2023.03.25 04:25:49 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:25:50 INFO  time: compiled root in 1.52s[0m
+2023.03.25 04:28:43 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:28:45 INFO  time: compiled root in 1.38s[0m
+2023.03.25 04:28:45 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:28:47 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:28:52 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:28:52 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:28:53 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:28:53 WARN  Could not load snapshot text for /home/junior/projet2023/src/main/scala/com/project/Cluster_App.scala[0m
+2023.03.25 04:28:55 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:28:56 INFO  time: compiled root in 1.75s[0m
+2023.03.25 04:29:10 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:29:11 INFO  time: compiled root in 1.25s[0m
+2023.03.25 04:31:00 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:31:02 INFO  time: compiled root in 1.58s[0m
+Mar 25, 2023 4:32:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11453
+Mar 25, 2023 4:32:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11454
+2023.03.25 04:35:30 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:35:32 INFO  time: compiled root in 1.9s[0m
+2023.03.25 04:36:08 INFO  Shutting down server[0m
+2023.03.25 04:36:08 INFO  shutting down Metals[0m
+2023.03.25 04:36:08 INFO  Shut down connection with build server.[0m
+2023.03.25 04:36:08 INFO  Shut down connection with build server.[0m
+2023.03.25 04:36:08 INFO  Shut down connection with build server.[0m
+2023.03.25 04:36:08 INFO  Exiting server[0m
+2023.03.25 04:36:35 INFO  Started: Metals version 0.11.11 in workspace '/home/junior/projet2023' for client Visual Studio Code 1.76.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/junior/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.25 04:36:36 INFO  time: initialize in 1.19s[0m
+2023.03.25 04:36:39 INFO  Attempting to connect to the build server...[0m
+2023.03.25 04:36:39 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 04:36:39 INFO  skipping build import with status 'Installed'[0m
+2023.03.25 04:36:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 04:36:39 INFO  Attempting to connect to the build server...[0m
+2023.03.25 04:36:39 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 04:36:39 INFO  Attempting to connect to the build server...[0m
+2023.03.25 04:36:39 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 04:36:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 04:36:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 04:36:40 INFO  time: Connected to build server in 0.59s[0m
+2023.03.25 04:36:40 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.25 04:36:39 INFO  time: Imported build in 0.12s[0m
+2023.03.25 04:36:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 04:36:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 04:36:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 04:36:45 INFO  time: indexed workspace in 5.99s[0m
+2023.03.25 04:40:46 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:40:47 INFO  time: compiled root in 1.46s[0m
+Mar 25, 2023 4:43:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+Mar 25, 2023 4:43:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 263
+2023.03.25 04:43:57 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:43:58 INFO  time: compiled root in 1.43s[0m
+2023.03.25 04:44:45 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:44:46 INFO  time: compiled root in 1.72s[0m
+2023.03.25 04:48:50 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:48:52 INFO  time: compiled root in 2.24s[0m
+2023.03.25 04:49:22 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:49:24 INFO  time: compiled root in 1.73s[0m
+Mar 25, 2023 4:51:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 780
+Mar 25, 2023 4:51:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 2)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 2)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:106)
+	at scala.tools.nsc.typechecker.Contexts$Context.lookupSymbol(Contexts.scala:1298)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdent$2(Typers.scala:5476)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdentOrWildcard$1(Typers.scala:5528)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5989)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedSelectOrSuperCall$1(Typers.scala:6145)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5992)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Namers$Namer.scala$tools$nsc$typechecker$Namers$Namer$$importSig(Namers.scala:1819)
+	at scala.tools.nsc.typechecker.Namers$Namer$ImportTypeCompleter.completeImpl(Namers.scala:910)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:2075)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:2073)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:2068)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1563)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1535)
+	at scala.reflect.internal.Symbols$Symbol.initialize(Symbols.scala:1724)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:3244)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3403)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5640)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5960)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6047)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:467)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1369)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1362)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.03.25 04:52:25 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:52:27 WARN  4 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 04:52:27 INFO  time: compiled root in 2.13s[0m
+2023.03.25 04:55:55 INFO  Configured debugger context in 1 second[0m
+2023.03.25 04:55:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/dap-server.trace.json or /home/junior/.cache/metals/dap-server.trace.json[0m
+2023.03.25 04:55:55 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:55:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/dap-client.trace.json or /home/junior/.cache/metals/dap-client.trace.json[0m
+2023.03.25 04:55:56 INFO  Starting debug proxy for [com.project.DistributedCacheStoreSystem][0m
+2023.03.25 04:55:56 INFO  Trying to attach to remote debuggee VM localhost:57951 .[0m
+2023.03.25 04:55:56 INFO  Attaching to debuggee VM succeeded.[0m
+2023.03.25 04:55:59 WARN  9 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+2023.03.25 04:55:59 INFO  time: compiled root in 3.54s[0m
+2023.03.25 04:56:01 ERROR Exception in thread "main" java.lang.ClassNotFoundException: sample.cluster.CborSerializable[0m
+2023.03.25 04:56:01 ERROR 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)[0m
+2023.03.25 04:56:01 ERROR 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)[0m
+2023.03.25 04:56:01 ERROR 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)[0m
+2023.03.25 04:56:01 ERROR 	at java.base/java.lang.Class.forName0(Native Method)[0m
+2023.03.25 04:56:01 ERROR 	at java.base/java.lang.Class.forName(Class.java:398)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ReflectiveDynamicAccess.$anonfun$getClassFor$1(ReflectiveDynamicAccess.scala:29)[0m
+2023.03.25 04:56:01 ERROR 	at scala.util.Try$.apply(Try.scala:210)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ReflectiveDynamicAccess.getClassFor(ReflectiveDynamicAccess.scala:28)[0m
+2023.03.25 04:56:01 ERROR 	at akka.serialization.Serialization.$anonfun$bindings$3(Serialization.scala:438)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.Iterator$$anon$9.next(Iterator.scala:584)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.immutable.HashMapBuilder.addAll(HashMap.scala:2360)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.immutable.HashMap$.from(HashMap.scala:2182)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.immutable.HashMap$.from(HashMap.scala:2158)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.MapOps$WithFilter.map(Map.scala:381)[0m
+2023.03.25 04:56:01 ERROR 	at akka.serialization.Serialization.<init>(Serialization.scala:436)[0m
+2023.03.25 04:56:01 ERROR 	at akka.serialization.SerializationExtension$.createExtension(SerializationExtension.scala:18)[0m
+2023.03.25 04:56:01 ERROR 	at akka.serialization.SerializationExtension$.createExtension(SerializationExtension.scala:14)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl.registerExtension(ActorSystem.scala:1165)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl.$anonfun$loadExtensions$1(ActorSystem.scala:1208)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.immutable.Vector.foreach(Vector.scala:1895)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl.loadExtensions$1(ActorSystem.scala:1202)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl.loadExtensions(ActorSystem.scala:1221)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl.liftedTree2$1(ActorSystem.scala:1042)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl._start$lzycompute(ActorSystem.scala:1029)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl._start(ActorSystem.scala:1029)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystemImpl.start(ActorSystem.scala:1052)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystem$.apply(ActorSystem.scala:272)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystem$.apply(ActorSystem.scala:316)[0m
+2023.03.25 04:56:01 ERROR 	at akka.actor.ActorSystem$.apply(ActorSystem.scala:260)[0m
+2023.03.25 04:56:01 ERROR 	at com.project.DistributedCacheStoreSystem$.delayedEndpoint$com$project$DistributedCacheStoreSystem$1(Cluster_App.scala:56)[0m
+2023.03.25 04:56:01 ERROR 	at com.project.DistributedCacheStoreSystem$delayedInit$body.apply(Cluster_App.scala:55)[0m
+2023.03.25 04:56:01 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:42)[0m
+2023.03.25 04:56:01 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:42)[0m
+2023.03.25 04:56:01 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.03.25 04:56:01 ERROR 	at scala.App.$anonfun$main$1(App.scala:98)[0m
+2023.03.25 04:56:01 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:98)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:575)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:573)[0m
+2023.03.25 04:56:01 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:933)[0m
+2023.03.25 04:56:01 ERROR 	at scala.App.main(App.scala:98)[0m
+2023.03.25 04:56:01 ERROR 	at scala.App.main$(App.scala:96)[0m
+2023.03.25 04:56:01 ERROR 	at com.project.DistributedCacheStoreSystem$.main(Cluster_App.scala:55)[0m
+2023.03.25 04:56:01 ERROR 	at com.project.DistributedCacheStoreSystem.main(Cluster_App.scala)[0m
+2023.03.25 04:56:01 INFO  Closing debug server tcp://0.0.0.0:34049[0m
+2023.03.25 04:56:03 INFO  Canceling debug proxy for [com.project.DistributedCacheStoreSystem][0m
+2023.03.25 04:56:15 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:56:16 INFO  time: compiled root in 1.62s[0m
+2023.03.25 04:56:36 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:56:37 INFO  time: compiled root in 1.53s[0m
+2023.03.25 04:59:04 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:59:04 INFO  time: compiled root in 0.24s[0m
+2023.03.25 04:59:04 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:59:04 INFO  time: compiled root in 0.18s[0m
+2023.03.25 04:59:04 INFO  compiling root (1 scala source)[0m
+2023.03.25 04:59:04 INFO  time: compiled root in 0.12s[0m
+2023.03.25 05:00:03 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:00:03 INFO  time: compiled root in 0.22s[0m
+2023.03.25 05:00:03 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:00:03 INFO  time: compiled root in 0.2s[0m
+2023.03.25 05:00:16 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:00:16 INFO  time: compiled root in 0.19s[0m
+2023.03.25 05:00:35 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:00:36 INFO  time: compiled root in 1.29s[0m
+2023.03.25 05:00:36 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:00:36 INFO  time: compiled root in 0.52s[0m
+2023.03.25 05:01:26 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:01:27 INFO  time: compiled root in 1.06s[0m
+2023.03.25 05:01:39 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:01:41 INFO  time: compiled root in 1.5s[0m
+2023.03.25 05:02:32 INFO  compiling root (1 scala source)[0m
+2023.03.25 05:02:33 INFO  time: compiled root in 1.66s[0m
+2023.03.25 05:05:16 INFO  time: code lens generation in 5.69s[0m
+2023.03.25 05:05:16 INFO  time: code lens generation in 1.44s[0m
+2023.03.25 05:05:21 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6715604824310736395/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2023.03.25 05:05:25 INFO  [info] welcome to sbt 1.8.2 (Ubuntu Java 11.0.18)[0m
+2023.03.25 05:05:27 INFO  [info] loading settings for project projet2023-build-build-build from metals.sbt ...[0m
+2023.03.25 05:05:29 INFO  [info] loading project definition from /home/junior/projet2023/project/project/project[0m
+2023.03.25 05:05:31 INFO  [info] loading settings for project projet2023-build-build from metals.sbt ...[0m
+2023.03.25 05:05:31 INFO  [info] loading project definition from /home/junior/projet2023/project/project[0m
+2023.03.25 05:05:36 INFO  [success] Generated .bloop/projet2023-build-build.json[0m
+2023.03.25 05:05:36 INFO  [success] Total time: 5 s, completed Mar 25, 2023, 5:05:37 AM[0m
+2023.03.25 05:05:36 INFO  [info] loading settings for project projet2023-build from metals.sbt,plugins.sbt ...[0m
+2023.03.25 05:05:37 INFO  [info] loading project definition from /home/junior/projet2023/project[0m
+2023.03.25 05:05:40 INFO  [success] Generated .bloop/projet2023-build.json[0m
+2023.03.25 05:05:40 INFO  [success] Total time: 2 s, completed Mar 25, 2023, 5:05:40 AM[0m
+2023.03.25 05:05:44 INFO  [info] loading settings for project root from build.sbt ...[0m
+2023.03.25 05:05:44 INFO  [info] set current project to Project2023 (in build file:/home/junior/projet2023/)[0m
+2023.03.25 05:05:45 INFO  [success] Generated .bloop/root.json[0m
+2023.03.25 05:05:45 INFO  [success] Generated .bloop/root-test.json[0m
+2023.03.25 05:05:45 INFO  [success] Total time: 1 s, completed Mar 25, 2023, 5:05:45 AM[0m
+2023.03.25 05:05:46 INFO  time: ran 'sbt bloopInstall' in 24s[0m
+2023.03.25 05:05:46 INFO  Disconnecting from Bloop session...[0m
+2023.03.25 05:05:46 INFO  Shut down connection with build server.[0m
+2023.03.25 05:05:46 INFO  Shut down connection with build server.[0m
+2023.03.25 05:05:46 INFO  Shut down connection with build server.[0m
+2023.03.25 05:05:46 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:05:46 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:05:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:05:46 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:05:46 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:05:46 INFO  Attempting to connect to the build server...[0m
+2023.03.25 05:05:46 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/junior/.bloop/bloop.json[0m
+2023.03.25 05:05:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:05:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/junior/projet2023/project/.metals/bsp.trace.json or /home/junior/.cache/metals/bsp.trace.json[0m
+2023.03.25 05:05:46 INFO  time: Connected to build server in 0.29s[0m
+2023.03.25 05:05:46 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.03.25 05:05:49 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:05:49 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:05:49 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.03.25 05:05:49 INFO  time: indexed workspace in 3.13s[0m
+2023.03.25 05:05:54 INFO  time: code lens generation in 3.81s[0m
+2023.03.25 05:06:58 INFO  skipping build import with status 'Installed'[0m
+Mar 25, 2023 5:07:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%226058add0199d3c2ca7135d1418cdab4637c2944d%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Mar 25, 2023 5:07:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%22269ef9024fae18c666e5f696af7cb01a55d59caf%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Mar 25, 2023 5:07:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%226058add0199d3c2ca7135d1418cdab4637c2944d%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Mar 25, 2023 5:07:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%22269ef9024fae18c666e5f696af7cb01a55d59caf%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Mar 25, 2023 5:07:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%226058add0199d3c2ca7135d1418cdab4637c2944d%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+
+Mar 25, 2023 5:07:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/home/junior/projet2023/build.sbt?%7B%22path%22%3A%22%2Fhome%2Fjunior%2Fprojet2023%2Fbuild.sbt%22%2C%22ref%22%3A%22269ef9024fae18c666e5f696af7cb01a55d59caf%22%7D"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:97)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:120)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:173)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:609)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:606)
+	at scala.meta.internal.metals.MetalsLspService.didFocus(MetalsLspService.scala:1173)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 15 more
+

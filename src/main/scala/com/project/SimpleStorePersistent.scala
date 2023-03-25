@@ -80,6 +80,9 @@ class JournalActor(filename:String) extends Actor {
             Delete(key)
             sender ! DeleteResponse("Value has been deleted", receiver)
         }
+        case Response(value)=> {
+            println(value)
+        }
         case Start() =>{
             sender ! Response("Welcome in Junior data store, We accept three operation store, lookup , delete, stop ")
             
